@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<body>
+    <style>
+        *{
+            background-color: lightblue;
+        }
+        h1,h3{
+            text-align: center;
+        }
+        div{
+            display: flex;
+            justify-content: space-evenly;
+        }
+        input{
+            font-size: 20px;
+            border-radius: 5px;
+            outline: none;
+            border: 1px solid blue;
+        }
+        input:hover{
+            box-shadow: 5px 5px 5px blue;
+        }
+        .div1{
+            margin-top: 30px;
+        }
+    </style>
+    <h1>Calculator</h1>
+    <h3>Please write one of the following Operations (Summation,Subtraction,Multiplication,Division)</h3>
+    <div>
+    <input type="number" placeholder="1st Num" id="FN">
+    <input type="number" placeholder="2nd Num" id="SN">
+    <input type="text" placeholder="Write The Operation" id="OP">
+    </div>
+    <div class="div1">
+        <input type="number" placeholder="RESULT" id="RE">
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
